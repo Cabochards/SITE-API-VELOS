@@ -1,0 +1,95 @@
+/*******************************************/
+/* Feuille de styles pour projetSAE15.html */
+/*******************************************/
+
+/* définition des styles */
+*{
+    padding : 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family : Georgia, "Times New Roman", Times, serif;
+    color : whitesmoke;
+ 
+}
+
+
+body{
+     background-image :  linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(./images/Paris_.jpg);
+     background-size : cover;
+     background-position: center ;
+     height : 100vh;
+}
+
+#entete h1{
+    float: left;
+    margin: 10px;
+    padding: 10px;
+}
+
+#entete ul  {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    
+  
+}
+  
+#entete li {
+    float: left;
+}
+  
+#entete li a, .dropbtn {
+    display: block;
+    color: whitesmoke;
+    padding: 10px 20px;
+    text-decoration: none;
+      
+}
+ 
+#entete li a:hover, .dropdown:hover .dropbtn {
+    background-color: rgb(140,190,214);
+}
+  
+#carte{
+    position: absolute;
+    top: 50%;
+    left: 65%;
+    transform : translate(-50%,-50%);
+    background-color :blanchedalmond;
+
+}
+
+#carte h1{
+    color: wheat;
+    font-size: 30px;
+}
+
+#carte img {
+    height: 400px; 
+    width: 400px;
+  
+}
+
+  
+#stats {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform : translate(-50%,-50%);
+    background-color : blanchedalmond;
+    height: 275px;
+   }
+
+
+
+
+#footer{
+    position: absolute;
+    text-align: center;
+    top : 110%;
+    padding : 1%;
+    width: 100%;
+    background-color: black;
+}
+
